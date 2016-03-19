@@ -16,11 +16,8 @@
         }
 
         function searchQueryDB(tx) {
-<<<<<<< HEAD
             tx.executeSql("SELECT * FROM DEMO where name like ('%"+ document.getElementById("txtName").value + "%')",
-=======
             tx.executeSql("SELECT * FROM EXERCISE where name like ('%"+ document.getElementById("txtName").value + "%')",
->>>>>>> 1116691a5a3a5fc6a08875bc75401c4ea4f85269
                     [], querySuccess, errorCB);
         }
         // Query the success callback
